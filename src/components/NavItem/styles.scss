@@ -1,0 +1,23 @@
+.navContainer {
+    .navTab {
+        list-style-type: none;
+         
+         .nav-link{
+            box-shadow: none !important;
+            // text-transform: uppercase !important;
+            color: #42526E;
+            padding: 0;
+            font-weight: normal;    
+             
+            &:hover{
+               color: rgb(0,82,204);
+            }
+        }
+    
+        .activeTab{
+            border-bottom: 3px solid rgb(0,82,204);
+            border-radius: 0px;
+            color:  rgb(0,82,204);
+        }
+    }
+}

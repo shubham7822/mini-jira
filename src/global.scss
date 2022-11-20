@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('../node_modules/font-awesome/css/font-awesome.min.css');
+
+a{
+    color: #42526E;
+    padding: 0;
+    font-weight: normal;
+    text-decoration: none;
+
+    a:hover{
+    color: #42526E;
+    padding: 0;
+    font-weight: normal;
+    text-decoration: none;
+    }
+}
+
+.c-p {
+    cursor: pointer;
+}
+
+.saveBtnColor {
+    background-color: rgb(0,82,204);
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 8px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+.cancleBtnColor  {
+    opacity: 1;
+    transition: opacity 0.3s ease 0s;
+    margin: 0px 2px;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: white;
+    color: grey;
+}
+
+.cancleBtnColor:hover {
+ background-color: white;
+ color: grey;
+}
+
+.createWrapper {
+       .appGifimage {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        width: 600px;
+        height: 300px;
+        border-radius: 6px;
+        z-index: -10;   
+    }
+
+       .appGifWave {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        z-index: -10;
+       }
+}
+
+
+
+.spanTextColor {
+  box-shadow: none !important;
+  color: #42526E;
+  padding: 0;
+  font-weight: normal;
+}

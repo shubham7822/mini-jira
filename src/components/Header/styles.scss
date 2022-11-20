@@ -1,0 +1,33 @@
+.headerImg {
+    background-color:white;
+    object-fit:contain;
+    height:50px;
+    width: 50px;
+}
+
+.header {
+    padding: 5px;
+     border-bottom: 1px solid #EBECF0;
+     background-color: white;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+    a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+      color: black;
+    }
+}
+}
+
+
+.headerLogoutBtn {
+  box-shadow: none !important;
+  color: #42526E;
+  padding: 0;
+  font-weight: normal;
+}

@@ -1,0 +1,27 @@
+.prjCard{
+     width: 500px;
+     max-width: 700px;
+     margin: 10px;
+}
+
+.prjContainer {
+    height: 40px;
+    padding: 5px 15px;
+    margin: 0px 3px;
+    display: flex;
+    border-bottom: 1px solid #EBECF0;
+    background: #FFFFFF;
+    justify-content: space-between;
+    column-count: 3;
+    column-gap: 20px;
+
+    & span {
+        overflow: hidden;
+        
+    }
+}
+
+
+.taskId {
+    color: #6B778C;
+}
